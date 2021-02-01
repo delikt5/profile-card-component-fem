@@ -1,0 +1,24 @@
+/* resets & overrides
+-----------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {border: none;}
+
+/* links & lists
+-----------------------------------------------*/
+li {list-style: none;}
+a {text-decoration: none;}
+
+/* layout & styles
+-----------------------------------------------*/
+:root {
+    font-family: 'Kumbh Sans', sans-serif;
+    --primary-one: hsl(185, 75%, 39%);
+    --primary-two: hsl(229, 23%, 23%);
+    --primary-three: hsl(227, 10%, 46%);
+    --secondary: hsl(0, 0%, 59%);
+    font-size: 18px;
+}
