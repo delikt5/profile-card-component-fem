@@ -29,6 +29,7 @@ body {
 .container {
     width: 1440px;
     margin:auto;
+    position: relative;
 }
 h1, h2 {
     font-size: 18px;
@@ -42,18 +43,22 @@ p, span {
 .profile-card {
     margin: auto;
     margin-top: 200px;
-    width: 400px;
+    width: 370px;
     /* height: 450px; */
     box-shadow: 0 0 15px gray;
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
     text-align: center;
+    position: relative;
 }
 .profile-header {
     height: 130px;
     width: 100%;
     background-image: url("../images/bg-pattern-card.svg");
+}
+.profile-info {
+    margin-top: -35px;
 }
 .profile-image {
     border-radius: 50%;
@@ -71,9 +76,24 @@ p, span {
 .profile-social {
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid var(--secondary);
+    border-top: 1px solid lightgray;
     padding: 30px 0;
 }
 .social-numbers {
     padding-bottom: 7px;
+}
+.social-type {
+    font-size: 12px;
+}
+.bg-image-top, .bg-image-bottom {
+    position: absolute;
+    overflow: hidden;
+}
+.bg-image-top {
+    top: -786px;
+    left: -236px;
+}
+.bg-image-bottom {
+    bottom: -810px;
+    right: -230px;
 }
