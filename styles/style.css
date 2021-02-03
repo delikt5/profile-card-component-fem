@@ -24,7 +24,6 @@ a {text-decoration: none;}
 body {
     background: var(--primary-one);
     height: 100%;
-    overflow: hidden;
 }
 .container {
     width: 1440px;
