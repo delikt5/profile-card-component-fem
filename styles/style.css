@@ -43,7 +43,7 @@ p, span {
 .profile-card {
     margin: auto;
     margin-top: 200px;
-    width: 370px;
+    width: 300px;
     /* height: 450px; */
     box-shadow: 0 0 15px gray;
     border-radius: 10px;
@@ -85,6 +85,9 @@ p, span {
 .social-type {
     font-size: 12px;
 }
+
+/* background shapes
+---------------------------------------*/
 .bg-image-top, .bg-image-bottom {
     position: absolute;
     overflow: hidden;
@@ -96,4 +99,20 @@ p, span {
 .bg-image-bottom {
     bottom: -810px;
     right: -230px;
+}
+
+/* media queries
+------------------------------------------*/
+@media (max-width: 375px) {
+    .container{
+        width: 375px;
+    }
+    .bg-image-top {
+        top: -886px;
+        left: -596px;
+    }
+    .bg-image-bottom {
+        bottom: -750px;
+        right: -730px;
+    }
 }
